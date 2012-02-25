@@ -1,0 +1,101 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+pre {color:#555;text-shadow:2px 2px 4px #fff;font-size:1.1em;line-height:1.4em;font-family:monospace;font-weight:bold;}
+.example-block {
+    float:left;clear:both;position:relative;
+    border-radius:6px;
+    display:inline-block;
+    margin:20px;
+    padding:20px;
+    min-width:700px;
+    border:solid 2px #dadada;
+    background: #fafafa; /* Old browsers */
+    background: -moz-linear-gradient(top, #fafafa 0%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fafafa 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fafafa 0%,#e5e5e5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fafafa 0%,#e5e5e5 100%); /* IE10+ */
+    background: linear-gradient(top, #fafafa 0%,#e5e5e5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+    box-shadow:1px 2px 1px #999;
+}
+.example-block pre {margin: 0px;padding: 0px;}
+.example-block .title, .example-block a {
+    background: #4c4c4c; /* Old browsers */
+    background: -moz-linear-gradient(top, #4c4c4c 0%, #595959 12%, #474747 39%, #2c2c2c 50%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(12%,#595959), color-stop(39%,#474747), color-stop(50%,#2c2c2c), color-stop(60%,#111111), color-stop(76%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #4c4c4c 0%,#595959 12%,#474747 39%,#2c2c2c 50%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #4c4c4c 0%,#595959 12%,#474747 39%,#2c2c2c 50%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #4c4c4c 0%,#595959 12%,#474747 39%,#2c2c2c 50%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* IE10+ */
+    background: linear-gradient(top, #4c4c4c 0%,#595959 12%,#474747 39%,#2c2c2c 50%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
+.example-block a {
+    display:inline-block;
+    border:solid 1px #333;
+    border-radius: 6px;
+    padding:10px;
+    font-size:.8em;
+    font-weight:bold;
+    color: #fafafa;
+    text-decoration:none;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    box-shadow:2px 2px 2px #999;
+}
+.example-block h3 {
+    font-weight:bold;
+    font-size:120%;
+    margin:10px 0 5px;
+}
+.example-block .title {
+    margin: -22px -22px 10px;
+    border-radius: 4px 4px 0 0;
+    padding: 10px;
+    color: #fafafa;
+    font-weight:bold;
+    box-shadow:0px 1px 2px #999;
+}
+strong {color:black;}
